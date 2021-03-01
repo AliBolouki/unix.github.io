@@ -1,0 +1,636 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+
+
+/* Background gif for header */
+
+body {
+    background: url("Images/0 = Home page/Gif for small devices.gif") no-repeat fixed center;
+    background-size: cover;
+    height: 100%;
+}
+
+
+
+/* header */
+/* h1 on the top of the page */
+
+#In-the-name-of {
+    width: 100%;
+}
+
+
+#In-the-name-of div {
+/* background of h1 on the top */
+    width: 450px;
+    height: 35px;
+    margin: 0 auto;
+    background-color: black;
+    background: rgba(0,0,0,0.7);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transition: height 1s, background-color 2s;
+}
+
+
+#In-the-name-of div:hover {
+    background-color: rgba(0,0,0,1);
+    height: 50px;
+}
+
+
+#In-the-name-of h1 {
+    text-align: center;
+    font-size: 130%;
+    color: white;
+    font-family: 'Yusei Magic', sans-serif;
+    transition: padding 1.3s, color 1s;
+}
+
+
+#In-the-name-of div h1:hover{
+    padding-top: 8px;
+    color: rgb(219, 199, 13);
+}
+
+
+
+
+/* 3 Circles */
+
+.circles-on-top-left div {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    margin: 10px;
+}
+
+
+.circles-on-top-left div a img{
+    width: 15px;
+}
+
+
+
+
+/*menu on the right side of the page*/
+
+.menu-on-right div {
+/* the black background of the menu */
+    background-color: black;
+    height: 100%;
+    width: 3%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+
+.menu-on-right div a img{
+/* icons on the main menu */
+    width: 90%;
+    height: auto;
+    margin: auto;
+    margin-top: 50px;
+    display: block;
+}
+
+
+.menu-on-right div a img:hover {
+    width: 93%;
+    height: 5.7%;
+}
+
+
+
+
+/* Main */
+/* page 1 = Introducing */
+
+#background-all-pages {
+    background-color: black;
+    /* height: 1200%; */
+    width: 100%;
+    position: relative;
+    margin-top: 39.5em;
+}
+
+
+#first-img-on-background-1 {
+    width: 45%;
+    position: absolute;
+    margin: 3% 50%;
+    transition: width 1s;
+    z-index: 1;
+}
+
+
+#first-img-on-background-1:hover {
+    width: 46%;
+}
+
+
+#secound-img-on-background-1 {
+    width: 25%;
+    position: absolute;
+    margin: 10% 40%;
+    transition: width 1s;
+    z-index: 1;
+}
+
+
+#secound-img-on-background-1:hover {
+    width: 26%;
+}
+
+
+.border-text-on-background-1 {
+    width: 25%;
+    height: auto;
+    margin-top: 10%;
+    margin-left: 5%;
+    position: absolute;
+    box-shadow: 5px 5px 20px 5px red;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+
+.border-text-on-background-1:hover {
+    box-shadow: 5px 5px 20px 5px blue;
+}
+
+
+.border-text-on-background-1 p {
+    color: white;
+    font-size: 120%;
+    padding: 10px;
+    text-align: center;
+    line-height: 30px;
+}
+
+
+
+/* page2 = skills */
+
+
+#container-on-background-2 {
+    position: relative;
+    padding-top: 45%;
+}
+
+
+h2 {
+    margin-top: 5%;
+    text-align: center;
+    font-size: 350%;
+    font-family: 'Potta One', cursive;
+    color: #fff;
+    -webkit-animation: h2 1s ease-in-out infinite alternate;
+    -moz-animation: h2 1s ease-in-out infinite alternate;
+    animation: h2 1s ease-in-out infinite alternate;
+  }
+
+  @-webkit-keyframes h2 {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+
+
+/*  Skills meter */
+
+.lable-of-skills-metters {
+    position: absolute;
+    margin-top: -5%;
+    color: white;
+    font-family: 'Potta One', cursive;
+}
+
+
+.container-skill-meters {
+    width: 50%;
+    height: 5%;
+    border-radius: 10px;
+    background-color:rgb(129, 129, 124);
+    margin: auto;
+    margin-top: 4%;
+}
+
+
+.skill-meter-0 {
+    background-color: #4CAF50;
+    width: 90%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+.skill-meter-1 {
+    background-color: #2196F3;
+    width: 70%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+.skill-meter-2 {
+    background-color:  #f44336;
+    width: 10%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+.skill-meter-3 {
+    background-color: #cccc00;
+    width: 50%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+.skill-meter-4 {
+    background-color: #2196F3;
+    width: 80%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+.skill-meter-5 {
+    background-color: #cccc00;
+    width: 65%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+.degree-on-skill-meters {
+    text-align: right;
+    padding: 10px;
+    color: white;
+}
+
+
+
+/* page 3 = books */
+
+
+#container-on-background-3 {
+    position: relative;
+}
+
+
+h3 {
+    text-shadow: 2px 2px 5px red;
+    font-size: 300%;
+    margin: 30px auto;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    color: #FF0000;
+    text-align: center;
+    letter-spacing: 5px;
+    text-shadow: 0 2px 2px #FF0000, -2px 5px 0 #FF7F00,  -4px 10px 0 #FFFF00,-8px 15px 0 #00FF00, -12px 20px 0 #0000FF,-16px 25px 0 #4B0082,-20px 30px 0 #9400D3;
+}
+
+
+/* Book's Images */
+
+.for-images-background-3 li {
+    list-style-type: none;
+}
+
+
+#container-for-imgs-background-3 img {
+    width: 100%;
+    display: block;
+}
+
+
+/* Overlyes on images on background 3 */
+
+#container-for-img-background3 {
+    position: relative;
+    width: 22%;
+    margin: 2% 5%;
+    float: left;
+}
+
+
+.overly-for-img-background3 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(0, 0, 0);
+    z-index: 1;
+}
+
+
+#container-for-img-background3:hover .overly-for-img-background3 {
+    opacity: 0.7;
+}
+
+
+.text-on-overly-img-background3 {
+    color: white;
+    font-size: 130%;
+    width: 80%;
+    line-height: 170%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Lemonada', cursive;
+}
+
+
+
+/* page4 = Videos */
+
+
+#container-on-background-4 {
+    position: relative;
+}
+
+
+/* Elon Musk */
+
+
+.Header-text-ElonMusk {
+    margin: 85% 5% 0.5% 5%;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+
+#hr-0-background4-ElonMuSk {
+    width: 20%;
+    margin-left: 5%;
+}
+
+
+.Elon-Musk-text-about {
+    width: 20%;
+    margin-left: 5%;
+    color: white;
+    line-height: 150%;
+    font-family: 'Reggae One', cursive;
+}
+
+
+#container-for-2img-elon-musk ul li {
+    list-style-type: none;
+}
+
+
+#first-pic-Elon-musk {
+    width: 25%;
+    margin: -11% 30%;
+}
+
+
+#second-pic-Elon-musk {
+    position: absolute;
+    width: 25%;
+    margin: -22.5% 60%;
+}
+
+
+#Elon-musk-video-p4 {
+    display: block;
+    width: 70%;
+    height: auto;
+    transform: translate(-50%, -50%);
+    margin-top: 30%;
+    margin-left: 50%;
+}
+
+
+
+/* David Goggins */
+
+
+.Header-text-David-Goggins {
+    margin: -10% 5% 0.5% 5%;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+
+#hr-1-background4-David-Goggins {
+    width: 20%;
+    margin-left: 5%;
+}
+
+
+.David-Goggins-text-about {
+    width: 20%;
+    margin-left: 5%;
+    color: white;
+    line-height: 150%;
+    font-family: 'Reggae One', cursive;
+}
+
+
+#container-for-2img-david-goggins ul li {
+    list-style-type: none;
+}
+
+
+#first-pic-David-Goggins {
+    width: 25%;
+    margin: -12.5% 30%;
+}
+
+
+#second-pic-David-Goggins {
+    width: 25%;
+    margin: -18.9% 60%;
+    position: absolute;
+    display: block;
+}
+
+
+#third-pic-David-Goggins {
+    width: 25%;
+    margin: -3.5% 60%;
+    display: block;
+}
+
+
+#David-Goggins-video-p4 {
+    display: block;
+    width: 30%;
+    height: auto;
+    transform: translate(-50%, -50%);
+    margin-top: 35%;
+    margin-left: 50%;
+}
+
+
+
+/* David blaine */
+
+.Header-text-David-blaine {
+    margin: -20% 5% 0.5% 5%;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+
+#hr-1-background4-David-blaine {
+    width: 20%;
+    margin-left: 5%;
+}
+
+
+.David-Blaine-text-about {
+    width: 20%;
+    margin-left: 5%;
+    color: white;
+    line-height: 150%;
+    font-family: 'Reggae One', cursive;
+}
+
+
+#container-for-2img-david-blaine ul li {
+    list-style-type: none;
+}
+
+
+#first-pic-David-Blaine {
+    width: 25%;
+    margin: -12.8% 30%;
+}
+
+
+#second-pic-David-Blaine {
+    width: 38.8%;
+    margin: -26.4% 56%;
+    position: absolute;
+}
+
+
+#David-blaine-video-p4 {
+    display: block;
+    width: 70%;
+    height: auto;
+    transform: translate(-50%, -50%);
+    margin-top: 35%;
+    margin-left: 50%;
+}
+
+
+
+/* page5 = Socials */
+
+
+h4 {
+    margin-top: -10%;
+    text-align: center;
+    font-size: 350%;
+    font-family: 'Potta One', cursive;
+    color: #fff;
+    -webkit-animation: h2 1s ease-in-out infinite alternate;
+    -moz-animation: h2 1s ease-in-out infinite alternate;
+    animation: h2 1s ease-in-out infinite alternate;
+  }
+
+  @-webkit-keyframes h2 {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #063a88, 0 0 40px #0017e6, 0 0 50px #3812e4, 0 0 60px #003cff, 0 0 70px #0f0050;
+    }
+
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #b6281d, 0 0 40px #ff4d4d, 0 0 50px #a80f0f, 0 0 60px #660606, 0 0 70px #d80e0e, 0 0 80px #bd0000;
+    }
+  }
+
+
+#container-for-icons-background5 {
+    text-align: center;
+    display: block;
+    margin-top: 3%;
+} 
+
+
+.hr-0-background5 {
+    width: 50%;
+    margin: 2% auto;
+    display: block;
+    color: rgba(255, 255, 255, 0.534);
+}
+
+
+#container-for-two-sentence-background5 {
+    color: white;
+    text-align: center;
+    font-family: 'DotGothic16', sans-serif;
+    padding-bottom: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
